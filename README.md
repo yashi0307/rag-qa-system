@@ -19,10 +19,10 @@ This project implements a Retrieval-Augmented Generation (RAG) system that allow
 
 ## How It Works
 1. Upload document
-2. Chunk + embed
-3. Store in FAISS
-4. Query → retrieve relevant chunks
-5. Generate answer using LLM
+2. Background ingestion processes it
+3. Chunks stored in FAISS
+4. Query retrieves top-k chunks
+5. LLM generates final answer
 
 ## Setup Instructions
 ```bash
